@@ -1,0 +1,23 @@
+{
+  "name": "chatkaro",
+  "version": "1.0.0",
+  "description": "this a app where you can chat realtime",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "author": "Abhinav gupta",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "path": "^0.12.7",
+    "socket.io": "^4.7.2"
+  }
+}
